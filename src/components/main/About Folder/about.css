@@ -1,0 +1,121 @@
+.about-section {
+  padding: 4rem 0;
+  width: 100%;
+  background-color: var(--span-color);
+  position: relative;
+}
+
+.about-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center; */
+}
+
+.right-about-discription {
+  height: 700px;
+  width: 50%;
+  display: flex;
+  gap: 3.5rem;
+  justify-content: center;
+  z-index: +1;
+  flex-direction: column;
+}
+
+.fries-about {
+  z-index: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -5%;
+  position: absolute;
+}
+
+.about-title {
+  color: var(--back-color);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+}
+.about-para {
+  font-weight: 400;
+  text-shadow: 4px 2px 13px rgba(95, 95, 95, 1);
+  font-size: 1.5rem;
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+
+
+@media screen and (max-width: 1280px) {
+  .fries-about {
+    width: 600px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .fries-about {
+    width: 550px;
+    height: 550px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .fries-about {
+    width: 700px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .about-wrapper {
+    width: 90%;
+  }
+  .right-about-discription {
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .about-title {
+    color: var(--span-color);
+    font-size: 4.5rem;
+  }
+  .about-para {
+    color: white;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 860px) {
+  .about-title {
+    font-size: 4rem;
+  }
+  .about-para {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 680px) {
+  .right-about-discription {
+    height: 600px;
+  }
+  .about-title {
+    font-size: 3.5rem;
+  }
+  .about-para {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-title {
+    font-size: 3rem;
+  }
+  .about-para {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about-title {
+    font-size: 2.6rem;
+  }
+}

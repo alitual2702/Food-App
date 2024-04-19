@@ -1,0 +1,43 @@
+.cr-section {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--back-color);
+  color: white;
+  align-items: center;
+}
+.cr-section p {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+
+
+@media screen and (max-width: 768px) {
+  .cr-section p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cr-section p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .cr-section p {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cr-section p {
+    font-size: 0.6rem;
+  }
+}

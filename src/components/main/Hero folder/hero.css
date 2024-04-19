@@ -1,0 +1,146 @@
+.hero-section {
+  width: 100%;
+  height: calc(770px - 70px);
+  background-color: var(--back-color);
+}
+.hero-wrapper {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-wrapper::selection{
+  background-color: transparent;
+}
+.hero-title {
+  text-align: center;
+  font-size: 5rem;
+  letter-spacing: 0.3rem;
+  font-weight: 900;
+  color: var(--font-color);
+}
+.hero-title::selection , .hero-title span::selection{
+  background-color: transparent;
+}
+.hero-title span {
+  color: var(--span-color);
+}
+.hero-discrip {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  color: var(--font-color);
+}
+.down-arrow {
+  font-size: 5rem;
+  font-weight: 300;
+  color: var(--font-color);
+  list-style: none;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+
+@media screen and (max-width: 1280px) {
+  .hero-title {
+    font-size: 4rem;
+  }
+  .hero-discrip {
+    font-size: 2em;
+  }
+  .down-arrow {
+    font-size: 4rem;
+  }
+  .hero-section{
+    height: 600px;
+    
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hero-title {
+    font-size: 3.5rem;
+  }
+  .hero-discrip {
+    font-size: 2em;
+  }
+  .down-arrow {
+    font-size: 3.5rem;
+  }
+  .hero-section{
+    height: 550px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-title {
+    font-size: 2.7rem;
+  }
+  .hero-discrip {
+    font-size: 1.6em;
+  }
+  .down-arrow {
+    font-size: 2.7rem;
+  }
+  .hero-section{
+    height: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  .hero-discrip {
+    font-size: 1.3em;
+  }
+  .down-arrow {
+    font-size: 2rem;
+  }
+  .hero-section{
+    height: 450px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero-title {
+    font-size: 1.5rem;
+  }
+  .hero-discrip {
+    font-size: 1em;
+  }
+  .down-arrow {
+    font-size: 1.5rem;
+  }
+  .hero-section{
+    height: 400px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hero-title {
+    font-size: 1.3rem;
+  }
+  .hero-discrip {
+    font-size: 1em;
+  }
+  .down-arrow {
+    font-size: 1.3rem;
+  }
+  .hero-section{
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .hero-title {
+    font-size: 1rem;
+  }
+  .hero-discrip {
+    font-size: 1em;
+  }
+  .down-arrow {
+    font-size: 1rem;
+  }
+  .hero-section{
+    height: 300px;
+  }
+}

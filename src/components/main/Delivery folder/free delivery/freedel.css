@@ -1,0 +1,108 @@
+.left-del-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 5;
+}
+.del-img-free {
+  height: 450px;
+  width: 450px;
+}
+.right-del-con {
+  width: 100%;
+  flex: 5;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.free-del-title {
+  font-weight: 900;
+  color: var(--font-color);
+  font-size: 5rem;
+}
+
+.free-del-deiscrip {
+  color: var(--font-color);
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.free-del-get {
+  text-transform: uppercase;
+  width: 65%;
+  color: var(--font-color);
+  border-radius: 50px;
+  background-color: var(--back-color);
+  border: none;
+  height: 60px;
+  font-size: 1.3rem;
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+
+
+@media screen and (max-width: 1200px) {
+  .free-del-title {
+    font-size: 3.5rem;
+  }
+  .free-del-deiscrip {
+    font-size: 1.2rem;
+  }
+  .free-del-get {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .del-img-free {
+    width: 380px;
+    height: 380px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .free-del-title {
+    font-size: 3rem;
+  }
+  .free-del-deiscrip {
+    font-size: 1.1rem;
+  }
+  .free-del-get {
+    font-size: 1.1rem;
+  }
+  .del-img-free {
+    width: 340px;
+    height: 340px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .free-del-title {
+    font-size: 2rem;
+  }
+  .free-del-deiscrip {
+    font-size: 1rem;
+  }
+  .free-del-get {
+    font-size: 1rem;
+  }
+  .del-img-free {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .free-del-title {
+    font-size: 3rem;
+  }
+  .free-del-deiscrip {
+    font-size: 1.1rem;
+  }
+  .free-del-get {
+    font-size: 1.1rem;
+  }
+  .left-del-img {
+    display: none;
+  }
+}
