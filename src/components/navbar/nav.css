@@ -48,6 +48,6 @@
     transition: 0.5s ease;
   }
   .hided{
-    right: -100%;
+   right: -100%;
   }
 }
